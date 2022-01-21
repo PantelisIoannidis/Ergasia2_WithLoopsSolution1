@@ -1,7 +1,7 @@
 let Μετρητής = 0
 input.onButtonPressed(Button.A, function () {
     Μετρητής = 9
-    for (let index = 0; index < Μετρητής; index++) {
+    for (let index = 0; index < 9; index++) {
         basic.showNumber(Μετρητής)
         Μετρητής += -1
     }
